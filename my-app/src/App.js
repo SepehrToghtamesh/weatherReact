@@ -13,7 +13,8 @@ export default function App() {
         footer >
         This project was coded by Mitra Toghtamesh and is { " " } <
         a href = "https://github.com/mitra0079/weatherReact"
-        target = "_blank" >
+        target = "_blank"
+        rel = "noreferrer" >
         open - sourced on Github { " " } <
         /a>{" "} <
         /footer>{" "} <
