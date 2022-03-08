@@ -32,10 +32,8 @@ body {}
     list-style: none;
 }
 
-.weather img {
-    width: 64px;
-    height: 64px;
-    display: inline-block;
+.weather canvas {
+    margin-top: 5px;
     margin-right: 10px;
     float: left;
 }
