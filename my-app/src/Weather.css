@@ -9,6 +9,14 @@ body {}
     border-radius: 4px;
 }
 
+.weather a {
+    text-decoration: none;
+}
+
+.weather a:hover {
+    text-decoration: underline;
+}
+
 .weather form {
     margin-bottom: 20px;
 }
