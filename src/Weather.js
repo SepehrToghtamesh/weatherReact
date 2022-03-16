@@ -52,19 +52,19 @@ export default function Weather(props) {
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCityChange}
-              />{" "}
-            </div>{" "}
+              />
+            </div>
             <div className="col-3">
               <input
                 type="submit"
                 value="Search"
                 className="btn btn-primary w-100"
               />
-            </div>{" "}
-          </div>{" "}
-        </form>{" "}
-        <WeatherInfo data={weatherData} />{" "}
-        <WeatherForecast coordinates={weatherData.coordinates} />{" "}
+            </div>
+          </div>
+        </form>
+        <WeatherInfo data={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
